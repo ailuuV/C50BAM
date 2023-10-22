@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: playfair display;
+}
+
+/*-------------------------------------NAVEGADOR-------------------------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(17, 11, 11, 0.54);
+    width: 100%;
+    font-size: 18px;
+}
+
+/*-------------------------------------LOGO-------------------------------------*/
+.logo {
+    width: 90px;
+    height: 90px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.logoPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoPrincipal p {
+    padding-left: 10px;
+    padding-top: 20px;
+    color: #E6E2AF
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+.menu {
+    display: flex;
+    margin-top: 40px;
+}
+
+.menu li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #E6E2AF;
+}
+
+.menu2 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.menu2 li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu2 li a {
+    text-decoration: none;
+    color: #E6E2AF;
+}
+
+.contacto {
+    color: #E6E2AF
+}
+
+.body {
+    background-color: #000000;
+}
+
+/*-------------------------------------ENCABEZADO-------------------------------------*/
+
+.botonesHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productoEncabezado {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.botonProducto {
+    border-radius: 59px;
+    background: #E6E2AF;
+    border: none;
+    padding: 15px 30px;
+    margin-left: 10px;
+    color: #333;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: -100px
+}
+
+.productoEncabezado {
+    list-style: none;
+}
+
+.redSocial li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 90%;
+}
+
+
+/*-------------------------------------SEPARADOR BODY / FOOTER -------------------------------------*/
+
+.separador {
+    height: 3px;
+    background-color: #E6E2AF;
+}
+
+/*-------------------------------------FOOTER-------------------------------------*/
+.footer {
+    justify-content: space-between;
+    background-color: #000000;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center
+}
+
+.logoSecundario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marca p {
+    padding-left: 10px;
+    color: #E6E2AF;
+}
+
+.boria {
+    font-family: 'Alex Brush', serif;
+    font-size: 35px;
+    font-weight: lighter;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
+}
+
+.bomboneria {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
+}
+
+/*-------------------------------------MENU FOOTER-------------------------------------*/
+
+.footerMenu1 {
+    margin-top: 20px;
+}
+
+.footerMenu1 li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.footerMenu1 li a {
+    text-decoration: none;
+    color: #E6E2AF;
+    font-size: 12px;
+}
+
+.footerMenu2 {
+    margin-top: 40px;
+}
+
+.footerMenu2 li {
+    margin-right: 20px;
+    list-style: none;
+    color: #E6E2AF;
+    font-size: 15px;
+}
+
+/*-------------------------------------PAGINA DE INICIO-------------------------------------*/
+
+body {
+    background-color: #000000;
+}
+
+.logoProducto {
+    width: 140px;
+    height: 105px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.portadainicio {
+    padding: 0%;
+    background-image: url('/home/ailen/Documentos/sprint/Assets/imagenes/portada.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+header h1 {
+    font-family: 'Alex Brush', serif;
+    font-size: 99px;
+    font-weight: lighter;
+    color: #E6E2AF;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    color: #E6E2AF;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+/*MAIN*/
+
+main {
+    background-color: #000000;
+}
+
+h3 {
+    font-family: 'Amaranth', serif;
+    font-size: 30px;
+    color: #E6E2AF;
+    text-align: left;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+/*PRIMER DESCRIPCION*/
+
+.tituloMagia {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.CreandoMagia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen1 {
+    float: right;
+    padding-left: 10px;
+}
+
+.texto1 {
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+/*SEGUNDA DESCRIPCION*/
+
+.tituloMomentos {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px
+}
+
+.CreandoMomentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen2 {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.texto2 {
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*-------------------------------------PAGINA DE PRODUCTOS-------------------------------------*/
+
+.bodyProductos {
+    background-color: #000000;
+}
+
+.portadaProducto {
+    background-image: url('/home/ailen/Documentos/sprint/Assets/imagenes/portadaProductos.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.redSocialProductos {
+    display: inline;
+    list-style: none;
+    padding-left: 95%;
+}
+
+.tituloProducto {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    font-weight: lighter;
+    color: #E6E2AF;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 130px;
+}
+
+/*ENLACES DENTRO DE LA MISMA PAGINA*/
+
+.imagenesEnlace {
+    width: 350px;
+    height: 350px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 50px;
+
+}
+
+.botonesEnlace {
+    display: flex;
+    list-style: none
+}
+
+.botonesEnlace li {
+    padding-left: 150px;
+    margin-right: 50px;
+}
+
+.botonPrincipal {
+    border-radius: 59px;
+    background: #E6E2AF;
+    border: none;
+    color: #333;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+
+}
+
+
+/*TIENDA ONLINE*/
+
+.tituloSecciones {
+    font-family: 'Amaranth', serif;
+    font-size: 37px;
+    font-weight: lighter;
+    color: #E6E2AF;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+}
+
+.lineaSeparadora {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.separadorProductos {
+    height: 3px;
+    background-color: #E6E2AF;
+}
+
+/*PRODUCTOS*/
+
+.conteiner {
+    display: flex;
+    list-style: none
+}
+
+.conteiner li {
+    padding-left: 150px;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+.card-body {
+    background-color: #000000;
+}
+
+.card-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #E6E2AF;
+    padding-top: 20px;
+
+}
+
+.card-precio {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #E6E2AF;
+}
+
+.ramo {
+    font-size: 20px;
+    color: #E6E2AF;
+    text-align: center;
+}
+
+.botonAgregar {
+    font-size: 11px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 59px;
+    background: #E6E2AF;
+    border: none;
+    color: #333;
+    width: 130px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+#mesasDeChocolate ul {
+    display: flex;
+    list-style: none
+}
+
+#mesasDeChocolate li {
+    padding-left: 250px;
+}
+
+#mesasDeChocolate {
+    padding-bottom: 50px;
+}
+
+/*--------------------------------------PAGINA NOSOTROS---------------------------------------*/
+
+
+.nosotros {
+    background-color: #000000;
+    padding: 0%;
+    background-image: url('/home/ailen/Documentos/sprint/Assets/imagenes/portada nosotros.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tituloNosotros {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #E6E2AF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    padding-top: 50PX;
+    padding-bottom: 100px;
+}
+
+.subtituloNosotros {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+
+}
+
+.mainNosotros {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.mainNosotros p {
+    text-align: justify;
+    text-align: center;
+    line-height: 2;
+}
+
+.imgNosotros {
+    padding-left: 160px;
+    width: 600px;
+}
+
+
+/*--------------------------------------PAGINA CONTACTO---------------------------------------*/
+
+.bodyContacto {
+    background-color: #000000;
+}
+
+.tituloContacto {
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.formulario-container {
+    display: flex;
+    width: 400px;
+    padding-left: 270px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+.campos-izquierda {
+    flex: 1;
+    padding: 10px;
+}
+
+.campo-derecha {
+    flex: 1.5;
+    padding: 10px;
+    height: 150px
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #000000;
+    height: 30px;
+    color: #fff;
+    border-color: #FFFFFF;
+    font-size: 15px;
+}
+
+textarea {
+    height: calc(100% - 30px);
+}
