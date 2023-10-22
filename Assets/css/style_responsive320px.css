@@ -1,0 +1,226 @@
+/*-------------------------------RESPONSIVE PARA CELULAR 480 PX-----------------------------*/
+@media screen and (max-width:480px) {
+
+    /*NAV*/
+    .menu-toggle {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .menu {
+        display: none;
+        font-size: 10px;
+    }
+
+    .menu li a {
+        color: #fff;
+    }
+
+    .menu2 {
+        font-size: 12px;
+
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+
+    .logo {
+        width: 30px;
+        height: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    .contacto {
+        display: none;
+    }
+
+    .redSocial {
+        display: none;
+    }
+
+
+    /*--------------------------------------PAGINA INICIAL--------------------------------------*/
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header h2 {
+        font-size: 15px;
+        padding-bottom: auto;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    .botonProducto {
+        display: none
+    }
+
+    body {
+        background-color: black;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    /*--------PAGINA PRODUCTOS (preguntar como se modifican los componentes de bootstrap*/
+
+    .logoProducto {
+        width: 75px;
+        height: 45px;
+        float: left
+    }
+
+    .tituloProducto {
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        font-weight: lighter;
+        color: #E6E2AF;
+        text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .redSocialProductos {
+        display: none;
+    }
+
+    .imagenesEnlace {
+        width: 100px;
+        height: 100px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .botonesEnlace {
+        display: flex;
+        list-style: none
+    }
+
+    .botonesEnlace li {
+        padding-left: 0px;
+        margin-right: 5px;
+    }
+
+    .botonPrincipal {
+        border-radius: 59px;
+        background: #E6E2AF;
+        border: none;
+        color: #333;
+        width: 100px;
+        height: 50px;
+        position: relative;
+        top: 10px;
+
+    }
+
+    /*--------------------------------------PAGINA NOSOTROS--------------------------------------*/
+
+    .tituloNosotros {
+        font-size: 25px;
+
+    }
+
+    .subtituloNosotros {
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 50px;
+
+    }
+
+    .mainNosotros {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mainNosotros p {
+        text-align: justify;
+        text-align: center;
+        line-height: 2;
+    }
+
+
+    .imgNosotros {
+        padding-left: 0px;
+        width: 300px;
+        float: center;
+    }
+
+    /*---------------------------------PAGINA CONTACTO-----------------------------------*/
+    .tituloContacto {
+        font-size: 30px;
+    }
+
+    .formulario-container {
+        display: flex;
+        width: 400px;
+        padding-left: 0px;
+        padding-top: 20px;
+
+    }
+
+    .campos-izquierda {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .campo-derecha {
+        flex: 1.5;
+        padding: 10px;
+        margin-right: 100px;
+        height: 150px
+    }
+
+    label,
+    input,
+    textarea {
+        margin-bottom: 10px;
+        width: 100%;
+        background-color: #000000;
+        height: 30px;
+        color: #fff;
+        border-color: #FFFFFF;
+        font-size: 11px;
+    }
+
+    textarea {
+        height: calc(100% - 30px);
+    }
+
+    /*--------------------------------------FOOTER--------------------------------------*/
+
+    .logoSecundario {
+        width: 30px;
+        height: 30px;
+        padding-left: 40%;
+        padding-top: 50px;
+    }
+
+    .footerMenu1 {
+        display: none;
+    }
+
+    .footer {
+        display: inline-block;
+    }
+
+    .derechos {
+        font-size: 6px;
+        font-family: 'Times New Roman', Times, serif;
+        float: center;
+    }
+
+    .marca {
+        font-size: 10px;
+    }
+}

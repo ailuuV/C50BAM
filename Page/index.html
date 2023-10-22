@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linkeo estilos CSS-->
+    <link rel="stylesheet" href="/home/ailen/Documentos/sprint/Assets/css/style_inicio.css">
+    <link rel="stylesheet" href="/home/ailen/Documentos/sprint/Assets/css/style_responsive320px.css">
+    <!--Linkeo fuentes google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amaranth&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <!--linkeo JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--Titulo de la pagina-->
+    <title>Inicio</title>
+
+</head>
+
+<body>
+    </nav>
+
+    <div class="portadainicio">
+        <!--Menu de navegacion-->
+        <nav>
+            <!--logo-->
+            <div class="logoPrincipal">
+                <img class="logo" src="/home/ailen/Documentos/sprint/Assets/imagenes/logo.png" alt="logo-boria">
+                <p>Mendoza</p>
+            </div>
+
+            <!--menu-->
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./producto.html">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <ul class="menu2">
+                <li class="contacto">(+54) 261-7168715</li>
+                <li><a href="./carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <header>
+            <h1>Boria</h1>
+            <h2>Chocolatería</h2>
+            <!--Botones dentro de la imagen principal-->
+            <!--Boton con enlace a la pagina de productos-->
+            <div class="botonesHeader">
+                <ul class="productoEncabezado">
+                    <li>
+                        <a href="./producto.html" class="encabezadoProducto"> <button
+                                class="botonProducto">PRODUCTOS</button></a>
+                    </li>
+                </ul>
+                <!--Boton con enlace a redes sociales-->
+                <div class="redSocial">
+                    <li>
+                        <a href="https://www.instagram.com/boria_bomboneria/" target="_blank"><img
+                                src="/home/ailen/Documentos/sprint/Assets/imagenes/icono instagram.png" alt="Instagram"
+                                width="3%"></a>
+                    </li>
+                    <li>
+                        <a href="https://wa.link/nsf5om" target="_blank"><img
+                                src="/home/ailen/Documentos/sprint/Assets/imagenes/icono whatsapp.png" alt="whatsapp"
+                                width="3%"></a>
+                    </li>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <!--primer descripcion pagina de inicio -->
+
+        <h3 class="tituloMagia">Creando Magia en Cada Bocado</h3>
+        <div class="CreandoMagia">
+            <img src="/home/ailen/Documentos\sprint\Assets\imagenes\1 imagen inicio.png" width="25%" class="imagen1">
+            <p class="texto1">En el corazón de nuestra chocolatería, se encuentra una pasión que se derrite y se moldea
+                en cada bombón que creamos. La preparación de nuestros exquisitos bombones es un proceso meticuloso que
+                combina la creatividad con la precisión, llevando a nuestros clientes a un viaje sensorial inolvidable
+            </p>
+        </div>
+
+        <!--segunda descripcion pagina de inicio -->
+        <h3 class="tituloMomentos">Creando Momentos Inolvidables</h3>
+        <div class="CreandoMomentos">
+            <img src="\home\ailen\Documentos\sprint\Assets\imagenes\2 imagen inicio.png" width="25%" class="imagen2">
+            <p class="texto2">En nuestra chocolatería, no solo nos dedicamos a crear deliciosos bombones, sino también a
+                transformar eventos especiales en experiencias inolvidables. Desde bodas elegantes hasta celebraciones
+                íntimas, nos especializamos en el arte de armar regalos y mesas dulces que deleitan tanto los ojos como
+                el paladar.</p>
+        </div>
+    </main>
+
+    <!--LINEA SEPARADORA-->
+    <div class="separador"></div>
+
+    <!--FOOTER-->
+    <footer>
+        <nav class="footer">
+            <div class="logoSecundario">
+                <img src="\home\ailen\Documentos\sprint\Assets\imagenes\logo.png" width="10%" class="logo">
+                <div class="marca">
+                    <p class="boria"> Boria </p>
+                    <p class="bomboneria">Bomboneria</p>
+                </div>
+
+            </div>
+
+            <ul class="footerMenu1">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./producto.html">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <ul class="footerMenu2">
+                <li class="derechos">© 2023 Todos los derechos reservados.</li>
+                <li class="derechos">Diseño y desarrollo: Ailen Videla</li>
+            </ul>
+        </nav>
+
+    </footer>
+    <!--linkeo de JS a bootstrap-->
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $(".menu").toggleClass("active");
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>

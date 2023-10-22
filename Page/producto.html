@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linkeo estilos CSS-->
+    <link rel="stylesheet" href="\home\ailen\Documentos\sprint\Assets\css\style_inicio.css">
+    <link rel="stylesheet" href="/home/ailen/Documentos/sprint/Assets/css/style_responsive320px.css">
+    <!--Linkeo fuentes google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amaranth&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <!--Linkeo Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--linkeo JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--Titulo de la pagina-->
+    <title>Productos</title>
+
+
+</head>
+
+<body class="bodyProductos">
+    <div class="portadaProducto">
+        <!--Menu de navegacion-->
+        <nav>
+            <!--logo-->
+            <div class="logoPrincipal">
+                <img class="logoProducto" src="\home\ailen\Documentos\sprint\Assets\imagenes\logo.png" alt="logo-boria">
+                <p>Mendoza</p>
+            </div>
+
+            <!--menu-->
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./producto.html">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <ul class="menu2">
+                <li class="contacto">(+54) 261-7168715</li>
+                <li><a href="./carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <header>
+            <h1 class="tituloProducto">Productos</h1>
+            <!--Botones dentro de la portada-->
+            <div class="botonesHeader">
+                <!--Boton con enlace a redes sociales-->
+                <div class="redSocialProductos">
+                    <li>
+                        <a href="https://www.instagram.com/boria_bomboneria/" target="_blank"><img
+                                src="\home\ailen\Documentos\sprint\Assets\imagenes\icono instagram.png" alt="Instagram"
+                                width="50%"></a>
+                    </li>
+                    <li>
+                        <a href="https://wa.link/nsf5om" target="_blank"><img
+                                src="\home\ailen\Documentos\sprint\Assets\imagenes\icono whatsapp.png" alt="whatsapp"
+                                width="50%"></a>
+                    </li>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div>
+            <!-- botones de enlace dentro de la pagina-->
+            <div class="imagenesEnlace">
+                <img src="\home\ailen\Documentos\sprint\Assets\imagenes\primer boton producto.png">
+                <img src="\home\ailen\Documentos\sprint\Assets\imagenes\segundo boton producto.png">
+                <img src="\home\ailen\Documentos\sprint\Assets\imagenes\tercer boton producto.png">
+            </div>
+            <br>
+            <div>
+                <ul class="botonesEnlace">
+                    <li>
+                        <a href="#chocolates">
+                            <button class="botonPrincipal">Chocolates</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#especiales">
+                            <button class="botonPrincipal">Especiales</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#mesasDeChocolate">
+                            <button class="botonPrincipal">Mesas de chocolate</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!-- Comienza tienda online-->
+
+
+        <!-------------------------------------SECCION 1 CHOCOLATES------------------------------------->
+
+        <!--LINEA SEPARADORA-->
+        <div class="lineaSeparadora">
+            <div class="separadorProductos"></div>
+
+            <section id="chocolates">
+                <h2 class="tituloSecciones">Chocolates</h2>
+
+                <!--LINEA SEPARADORA-->
+                <div class="separadorProductos"></div>
+        </div>
+
+        <!--PRODUCTOS-->
+        <div>
+            <ul class="conteiner">
+                <li>
+                    <!--PRODUCTO 1-->
+                    <div class="card" style="width: 10rem;">
+                        <img src="\home\ailen\Documentos\sprint\Assets\imagenes\bombon de vanguardia.png"
+                            class="card-img-1" alt="chocolate 1">
+                        <div class="card-body">
+                            <h5 class="card-text">Bombones de Vanguardia</h5>
+                            <p class="card-text">x 6 u.</p>
+                            <p class="card-precio"> $xxxx</p>
+                            <a href="./carrito.html"><button class="botonAgregar">Agregar al carrito</button></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <!--PRODUCTO 2-->
+                    <div class="card" style="width: 10rem;">
+                        <img src="\home\ailen\Documentos\sprint\Assets\imagenes\bombon de corte.png" class="card-img-1"
+                            alt="chocolate 2">
+                        <div class="card-body">
+                            <h5 class="card-text">Bombones de corte</h5>
+                            <p class="card-text">x 12 u.</p>
+                            <p class="card-precio"> $xxxx</p>
+                            <a href="./carrito.html"><button class="botonAgregar">Agregar al carrito</button></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <!--PRODUCTO 3-->
+                    <div class="card" style="width: 10rem;">
+                        <img src="\home\ailen\Documentos\sprint\Assets\imagenes\roca suiza.png" class="card-img-1"
+                            alt="chocolate 3">
+                        <div class="card-body">
+                            <h5 class="card-text">Rocas <br> suizas</h5>
+                            <p class="card-text">x 10 u.</p>
+                            <p class="card-precio"> $xxxx</p>
+                            <a href="./carrito.html"><button class="botonAgregar">Agregar al carrito</button></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </section>
+
+        <!--------------------------------------- SECCION 2 ESPECIALES--------------------------------------->
+        <section id="especiales">
+            <!--LINEA SEPARADORA-->
+            <div class="lineaSeparadora">
+                <div class="separadorProductos"></div>
+
+                <h2 class="tituloSecciones">Especiales</h2>
+
+                <!--LINEA SEPARADORA-->
+                <div class="separadorProductos"></div>
+            </div>
+            <!--PRODUCTOS-->
+            <div>
+                <ul class="conteiner">
+                    <li>
+                        <!--PRODUCTO 1-->
+                        <div class="card" style="width: 10rem;">
+                            <img src="\home\ailen\Documentos\sprint\Assets\imagenes\box.png" class="card-img-1"
+                                alt="especial 1">
+                            <div class="card-body">
+                                <h5 class="card-text">Box <br> Xocolatl</h5>
+                                <p class="card-text"><br>x 33 u.</p>
+                                <p class="card-precio"> $xxxx</p>
+                                <a href="./carrito.html"><button class="botonAgregar">Agregar al carrito</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <!--PRODUCTO 2-->
+                        <div class="card" style="width: 10rem;">
+                            <img src="\home\ailen\Documentos\sprint\Assets\imagenes\lunas.png" class="card-img-1"
+                                alt="especial 2">
+                            <div class="card-body">
+                                <h5 class="card-text">Ciclo <br> Lunar</h5>
+                                <p class="card-text"><br>x 8 u.</p>
+                                <p class="card-precio"> $xxxx</p>
+                                <a href="./carrito.html"><button class="botonAgregar">Agregar al carrito</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <!--PRODUCTO 3-->
+                        <div class="card" style="width: 10rem;">
+                            <img src="\home\ailen\Documentos\sprint\Assets\imagenes\ramo.png" class="card-img-1"
+                                alt="especial 3">
+                            <div class="card-body">
+                                <h5 class="card-text">Ramo de trufas <br> suizas</h5>
+                                <p class="ramo">x 10 u. + 3 flores eternas </p>
+                                <p class="card-precio"> $xxxx</p>
+                                <a href="./carrito.html"><button class="botonAgregar">Agregar al carrito</button></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--------------------------------------- SECCION 3 MESAS DE CHOCOLATE--------------------------------------->
+        <section id="mesasDeChocolate">
+            <!--LINEA SEPARADORA-->
+            <div class="lineaSeparadora">
+                <div class="separadorProductos"></div>
+
+                <h2 class="tituloSecciones">Mesas de chocolate</h2>
+
+                <!--LINEA SEPARADORA-->
+                <div class="separadorProductos"></div>
+            </div>
+            <!--PRODUCTOS-->
+            <div>
+                <ul class="conteiner">
+                    <li>
+                        <!--PRODUCTO 1-->
+                        <div class="card" style="width: 10rem;">
+                            <img src="\home\ailen\Documentos\sprint\Assets\imagenes\mesa clasica.png" class="card-img-1"
+                                alt="mesa 1">
+                            <div class="card-body">
+                                <h5 class="card-text">Mesa Clasica <br><br><br></h5>
+                                <p class="card-precio"> $xxxx</p>
+                                <a href="./carrito.html"><button class="botonAgregar">Agregar al carrito</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <!--PRODUCTO 2-->
+                        <div class="card" style="width: 10rem;">
+                            <img src="\home\ailen\Documentos\sprint\Assets\imagenes\candy bar.png" class="card-img-1"
+                                alt="mesa 2">
+                            <div class="card-body">
+                                <h5 class="card-text">Candy bar <br><br><br></h5>
+                                <p class="card-precio"> $xxxx</p>
+                                <a href="./carrito.html"><button class="botonAgregar">Armá tu mesa</button></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!--LINEA SEPARADORA-->
+    <div class="separador"></div>
+
+    <!--FOOTER-->
+    <footer>
+        <nav class="footer">
+            <div class="logoSecundario">
+                <img src="\home\ailen\Documentos\sprint\Assets\imagenes\logo.png" width="10%" class="logoProducto">
+                <div class="marca">
+                    <p class="boria"> Boria </p>
+                    <p class="bomboneria">Bomboneria</p>
+                </div>
+
+            </div>
+
+            <ul class="footerMenu1">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./producto.html">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <ul class="footerMenu2">
+                <li class="derechos">© 2023 Todos los derechos reservados.</li>
+                <li>Diseño y desarrollo: Ailen Videla</li>
+            </ul>
+        </nav>
+    </footer>
+    <!--linkeo de JS a bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!--linkeo JS-->
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $(".menu").toggleClass("active");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
