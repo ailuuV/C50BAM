@@ -309,7 +309,7 @@ p {
 }
 
 .portadaProducto {
-    background-image: url('/home/ailen/Documentos/sprint/Assets/imagenes/portadaProductos.png');
+    background-image: url('Assets/imagenes/portadaProductos.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -462,7 +462,7 @@ p {
 .nosotros {
     background-color: #000000;
     padding: 0%;
-    background-image: url('/home/ailen/Documentos/sprint/Assets/imagenes/portada nosotros.png');
+    background-image: url('Assets/imagenes/portada nosotros.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
