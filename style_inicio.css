@@ -206,7 +206,7 @@ body {
 
 .portadainicio {
     padding: 0%;
-    background-image: url('/home/ailen/Documentos/sprint/Assets/imagenes/portada.png');
+    background-image: url('Assets/imagenes/portada.png');
     background-size: 100%;
     background-repeat: no-repeat;
 
