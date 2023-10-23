@@ -60,6 +60,10 @@ nav {
     color: #E6E2AF;
 }
 
+.menu li a:hover{
+    animation: blur-out-contract  0.4 linear both;
+}
+
 .menu2 {
     display: flex;
     margin-top: 40px;
@@ -105,7 +109,11 @@ nav {
     width: 200px;
     height: 50px;
     position: relative;
-    top: -100px
+    top: -100px;
+    cursor: pointer;
+}
+.botonProducto:hover{
+    animation: shadow-drop-center 0.4 linear both;
 }
 
 .productoEncabezado {
@@ -221,6 +229,7 @@ header h1 {
     text-align: center;
 }
 
+
 header h2 {
     font-family: 'Playfair Display', serif;
     font-size: 46px;
@@ -228,6 +237,7 @@ header h2 {
     text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.9);
     text-align: center;
 }
+
 
 /*MAIN*/
 
@@ -353,6 +363,7 @@ p {
     margin-right: 50px;
 }
 
+
 .botonPrincipal {
     border-radius: 59px;
     background: #E6E2AF;
@@ -362,9 +373,13 @@ p {
     height: 50px;
     position: relative;
     top: 10px;
+    cursor: pointer;
 
 }
 
+.botonPrincipal:hover{
+    animation: shadow-drop-center 0.4 linear both;
+}
 
 /*TIENDA ONLINE*/
 
@@ -441,7 +456,13 @@ p {
     height: 30px;
     position: relative;
     top: 10px;
+    cursor: pointer;
 }
+
+.botonAgregar:hover{
+    animation: vibrate 1.5s linear both
+}
+
 
 #mesasDeChocolate ul {
     display: flex;
